@@ -7,7 +7,7 @@ const throwNewError = () => {
 function App() {
   return (
     <div className="App">
-      <button onClick={throwNewError}>Break the world</button>;
+      <button onClick={throwNewError} aria-label="button">Break the world</button>;
     </div>
   );
 }
